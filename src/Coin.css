@@ -9,7 +9,7 @@
   justify-content: start;
   align-items: center;
   height: 80px;
-  border-bottom: 1px solid #d7d7d7;
+  border-bottom: 1px solid #eba63f;
   width: 900px;
 }
 
@@ -60,9 +60,9 @@
 }
 
 .red {
-  color: #f00606;
+  color: #e40c2b;
 }
 
 .green {
-  color: #11d811;
+  color: #438945;
 }
