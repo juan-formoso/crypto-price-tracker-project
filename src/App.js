@@ -33,10 +33,10 @@ function App() {
         <h1 className="coin-text">Search a currency</h1>
         <form>
           <input
-            type="text"
-            placeholder="Search"
             className="coin-input"
+            type="text"
             onChange={handleChange}
+            placeholder="Search"
           />
         </form>
       </div>
@@ -45,10 +45,12 @@ function App() {
           <Coin
             key={coin.id}
             name={coin.name}
-            image={coin.image}
-            symbol={coin.symbol}
             price={coin.current_price}
+            symbol={coin.symbol}
+            marketcap={coin.total_volume}
             volume={coin.market_cap}
+            image={coin.image}
+            priceChange={coin.price_change_percentage_24h}
           />
         );
       })}
